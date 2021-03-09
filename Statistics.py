@@ -1993,9 +1993,6 @@ border-bottom:2px solid rgb(0, 0, 0);}""")
         motif = ''.join(self.m.mycursor.fetchone())
         self.rem.motif.setText(str(motif))
 
-
-# y_m_d for accs and devise
-
 if __name__ == '__main__':
     import sys
     app = QApplication(sys.argv)
