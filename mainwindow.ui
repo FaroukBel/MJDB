@@ -1,0 +1,3385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1137</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Mongolian Baiti</family>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_10">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame#frame_2{
+	
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 119, 179, 255), stop:1 rgba(0, 0, 0, 255));
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="title_bar">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>34</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>8</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QFrale{
+	border-radius:15px;
+}</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frame_5">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_4">
+               <property name="maximumSize">
+                <size>
+                 <width>101</width>
+                 <height>44</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_3">
+                <property name="spacing">
+                 <number>13</number>
+                </property>
+                <property name="rightMargin">
+                 <number>9</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>11</number>
+                </property>
+                <item>
+                 <widget class="QPushButton" name="mini">
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>22</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+	border:none;
+	border-radius:10px;
+	background-color: rgb(255, 170, 0);
+}
+
+QPushButton:hover{
+	background-color: rgb(206, 137, 0);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="mini_2">
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>22</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+	border:none;
+	border-radius:10px;
+	background-color: rgb(0, 218, 160);
+}
+
+QPushButton:hover{
+	background-color: rgb(0, 152, 111);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="close_btn">
+                  <property name="minimumSize">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>20</width>
+                    <height>20</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>11</pointsize>
+                    <weight>75</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+	border:none;
+	border-radius:10px;
+	background-color: rgb(255, 0, 0);
+}
+
+QPushButton:hover{
+	background-color: rgb(211, 0, 0);
+}</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_10">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>64</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_9">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frame_6">
+               <property name="minimumSize">
+                <size>
+                 <width>651</width>
+                 <height>62</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>651</width>
+                 <height>62</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_7">
+                <property name="spacing">
+                 <number>20</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>7</number>
+                </property>
+                <property name="rightMargin">
+                 <number>100</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>1</number>
+                </property>
+                <item>
+                 <widget class="QFrame" name="frame_14">
+                  <property name="minimumSize">
+                   <size>
+                    <width>232</width>
+                    <height>73</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>232</width>
+                    <height>60</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string/>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout">
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>15</number>
+                   </property>
+                   <item>
+                    <widget class="QLabel" name="label_3">
+                     <property name="minimumSize">
+                      <size>
+                       <width>240</width>
+                       <height>52</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>240</width>
+                       <height>61</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>Mongolian Baiti</family>
+                       <pointsize>46</pointsize>
+                       <weight>75</weight>
+                       <italic>false</italic>
+                       <bold>true</bold>
+                       <underline>true</underline>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>MJDB</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QFrame" name="frame_7">
+                  <property name="minimumSize">
+                   <size>
+                    <width>369</width>
+                    <height>106</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>363</width>
+                    <height>121</height>
+                   </size>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_2">
+                   <property name="spacing">
+                    <number>3</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>4</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>20</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>48</number>
+                   </property>
+                   <item>
+                    <widget class="QLabel" name="label_9">
+                     <property name="minimumSize">
+                      <size>
+                       <width>189</width>
+                       <height>32</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>85</width>
+                       <height>41</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>Bodoni MT</family>
+                       <pointsize>17</pointsize>
+                       <weight>75</weight>
+                       <italic>false</italic>
+                       <bold>true</bold>
+                       <underline>false</underline>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>STATISTIQUES</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QFrame" name="frame_8">
+                     <property name="frameShape">
+                      <enum>QFrame::StyledPanel</enum>
+                     </property>
+                     <property name="frameShadow">
+                      <enum>QFrame::Raised</enum>
+                     </property>
+                     <layout class="QHBoxLayout" name="horizontalLayout_5">
+                      <property name="spacing">
+                       <number>57</number>
+                      </property>
+                      <property name="leftMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>48</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>16</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label_5">
+                        <property name="minimumSize">
+                         <size>
+                          <width>170</width>
+                          <height>24</height>
+                         </size>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>121</width>
+                          <height>51</height>
+                         </size>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Bodoni MT</family>
+                          <pointsize>17</pointsize>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="text">
+                         <string>Utilisateur:</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="user">
+                        <property name="minimumSize">
+                         <size>
+                          <width>131</width>
+                          <height>23</height>
+                         </size>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>51</width>
+                          <height>16777215</height>
+                         </size>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Bodoni MT</family>
+                          <pointsize>17</pointsize>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_9">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_8">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>21</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>1</number>
+                </property>
+                <item>
+                 <widget class="QFrame" name="frame_21">
+                  <property name="minimumSize">
+                   <size>
+                    <width>49</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="date">
+                  <property name="minimumSize">
+                   <size>
+                    <width>199</width>
+                    <height>41</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>151</width>
+                    <height>41</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Bodoni MT</family>
+                    <pointsize>23</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>00:00:00</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="time">
+                  <property name="minimumSize">
+                   <size>
+                    <width>87</width>
+                    <height>41</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>139</width>
+                    <height>41</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Bodoni MT</family>
+                    <pointsize>23</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>00:00:00</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_11">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>268</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_6">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="Line" name="line">
+            <property name="font">
+             <font>
+              <pointsize>9</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 170, 255);</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_3">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>162</height>
+             </size>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_14">
+             <property name="spacing">
+              <number>1</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frame">
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>162</height>
+                </size>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_12">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>10</number>
+                </property>
+                <property name="topMargin">
+                 <number>11</number>
+                </property>
+                <property name="rightMargin">
+                 <number>21</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>32</number>
+                </property>
+                <item>
+                 <widget class="QFrame" name="frame_19">
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_17">
+                   <property name="spacing">
+                    <number>0</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QFrame" name="frame_23">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="frameShape">
+                      <enum>QFrame::StyledPanel</enum>
+                     </property>
+                     <property name="frameShadow">
+                      <enum>QFrame::Raised</enum>
+                     </property>
+                     <layout class="QHBoxLayout" name="horizontalLayout_17">
+                      <item>
+                       <widget class="QComboBox" name="acc_box">
+                        <property name="minimumSize">
+                         <size>
+                          <width>260</width>
+                          <height>55</height>
+                         </size>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Bodoni MT</family>
+                          <pointsize>14</pointsize>
+                          <weight>75</weight>
+                          <italic>false</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">QComboBox{
+	border-radius:5px;
+	color: rgb(0, 0, 0);
+	
+	background-color: qlineargradient(spread:pad, x1:0.483, y1:0, x2:0.513, y2:0.989, stop:0 rgba(197, 197, 197, 255), stop:1 rgba(120, 120, 120, 255));
+	selection-color:white;
+}
+QComboBox:hover {
+	
+	background-color: qlineargradient(spread:reflect, x1:0.457, y1:0.5, x2:0.436, y2:1, stop:0 rgba(0, 230, 169, 255), stop:1 rgba(0, 200, 147, 255));
+ }
+</string>
+                        </property>
+                        <property name="placeholderText">
+                         <string>Selectionnez un compte...</string>
+                        </property>
+                        <property name="frame">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QComboBox" name="acc_box_2">
+                        <property name="minimumSize">
+                         <size>
+                          <width>260</width>
+                          <height>55</height>
+                         </size>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>57</height>
+                         </size>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Bodoni MT</family>
+                          <pointsize>14</pointsize>
+                          <weight>75</weight>
+                          <italic>false</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">QComboBox{
+	border-radius:5px;
+	color: rgb(0, 0, 0);
+	background-color: qlineargradient(spread:pad, x1:0.483, y1:0, x2:0.513, y2:0.989, stop:0 rgba(197, 197, 197, 255), stop:1 rgba(120, 120, 120, 255));
+}
+QComboBox:hover {
+	background-color: qlineargradient(spread:reflect, x1:0.457, y1:0.5, x2:0.436, y2:1, stop:0 rgba(0, 230, 169, 255), stop:1 rgba(0, 200, 147, 255));
+ }</string>
+                        </property>
+                        <property name="placeholderText">
+                         <string>Selectionnez un sous-compte...</string>
+                        </property>
+                        <property name="frame">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QFrame" name="frame_27">
+                     <property name="maximumSize">
+                      <size>
+                       <width>600</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="frameShape">
+                      <enum>QFrame::StyledPanel</enum>
+                     </property>
+                     <property name="frameShadow">
+                      <enum>QFrame::Raised</enum>
+                     </property>
+                     <layout class="QHBoxLayout" name="horizontalLayout_20">
+                      <property name="spacing">
+                       <number>11</number>
+                      </property>
+                      <property name="leftMargin">
+                       <number>11</number>
+                      </property>
+                      <property name="topMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="rightMargin">
+                       <number>0</number>
+                      </property>
+                      <property name="bottomMargin">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLabel" name="label_8">
+                        <property name="minimumSize">
+                         <size>
+                          <width>0</width>
+                          <height>36</height>
+                         </size>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>36</height>
+                         </size>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Bodoni MT</family>
+                          <pointsize>18</pointsize>
+                          <weight>75</weight>
+                          <italic>false</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="text">
+                         <string>Référence:</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="reference">
+                        <property name="enabled">
+                         <bool>true</bool>
+                        </property>
+                        <property name="minimumSize">
+                         <size>
+                          <width>0</width>
+                          <height>36</height>
+                         </size>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>170</width>
+                          <height>36</height>
+                         </size>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Bodoni MT</family>
+                          <pointsize>15</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="acceptDrops">
+                         <bool>true</bool>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">QLineEdit{
+	border-radius:10px;
+}</string>
+                        </property>
+                        <property name="frame">
+                         <bool>true</bool>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>false</bool>
+                        </property>
+                        <property name="placeholderText">
+                         <string>Référence</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_10">
+                        <property name="minimumSize">
+                         <size>
+                          <width>0</width>
+                          <height>36</height>
+                         </size>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>16777215</width>
+                          <height>36</height>
+                         </size>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Bodoni MT</family>
+                          <pointsize>18</pointsize>
+                          <weight>75</weight>
+                          <italic>false</italic>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">color: rgb(255, 255, 255);</string>
+                        </property>
+                        <property name="text">
+                         <string>Collab.:</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="colab">
+                        <property name="enabled">
+                         <bool>true</bool>
+                        </property>
+                        <property name="minimumSize">
+                         <size>
+                          <width>0</width>
+                          <height>36</height>
+                         </size>
+                        </property>
+                        <property name="maximumSize">
+                         <size>
+                          <width>170</width>
+                          <height>36</height>
+                         </size>
+                        </property>
+                        <property name="font">
+                         <font>
+                          <family>Bodoni MT</family>
+                          <pointsize>15</pointsize>
+                          <weight>75</weight>
+                          <bold>true</bold>
+                         </font>
+                        </property>
+                        <property name="acceptDrops">
+                         <bool>true</bool>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">QLineEdit{
+	border-radius:10px;
+}</string>
+                        </property>
+                        <property name="frame">
+                         <bool>true</bool>
+                        </property>
+                        <property name="alignment">
+                         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                        </property>
+                        <property name="readOnly">
+                         <bool>false</bool>
+                        </property>
+                        <property name="placeholderText">
+                         <string>Collaborateur</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QFrame" name="frame_20">
+                  <property name="minimumSize">
+                   <size>
+                    <width>297</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>100</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_18">
+                   <item>
+                    <widget class="QRadioButton" name="con_non_con">
+                     <property name="minimumSize">
+                      <size>
+                       <width>31</width>
+                       <height>51</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>119</width>
+                       <height>46</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>Bodoni MT</family>
+                       <pointsize>23</pointsize>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string>color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>C/NC</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="con">
+                     <property name="minimumSize">
+                      <size>
+                       <width>44</width>
+                       <height>51</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>64</width>
+                       <height>47</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>Bodoni MT</family>
+                       <pointsize>23</pointsize>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string>color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>C</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QRadioButton" name="non_con">
+                     <property name="minimumSize">
+                      <size>
+                       <width>62</width>
+                       <height>51</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>76</width>
+                       <height>44</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>Bodoni MT</family>
+                       <pointsize>23</pointsize>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string>color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>NC</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame">
+               <property name="minimumSize">
+                <size>
+                 <width>224</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>224</width>
+                 <height>162</height>
+                </size>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_4">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QFrame" name="frame">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>42</height>
+                   </size>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_10">
+                   <property name="spacing">
+                    <number>0</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QLabel" name="label_6">
+                     <property name="minimumSize">
+                      <size>
+                       <width>31</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>31</width>
+                       <height>16</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>Mongolian Baiti</family>
+                       <pointsize>13</pointsize>
+                       <weight>75</weight>
+                       <italic>false</italic>
+                       <bold>true</bold>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>De:</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QDateEdit" name="dateEdit">
+                     <property name="minimumSize">
+                      <size>
+                       <width>171</width>
+                       <height>31</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>171</width>
+                       <height>31</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>Mongolian Baiti</family>
+                       <pointsize>18</pointsize>
+                       <weight>75</weight>
+                       <italic>false</italic>
+                       <bold>true</bold>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QDateEdit{
+	border-radius:5px;
+	color: rgb(0, 0, 0);
+	background-color: qlineargradient(spread:pad, x1:0.483, y1:0, x2:0.513, y2:0.989, stop:0 rgba(197, 197, 197, 255), stop:1 rgba(120, 120, 120, 255));
+}
+QDateEdit:hover {
+	
+	background-color: rgb(170, 255, 255);
+ }</string>
+                     </property>
+                     <property name="dateTime">
+                      <datetime>
+                       <hour>0</hour>
+                       <minute>0</minute>
+                       <second>0</second>
+                       <year>2020</year>
+                       <month>6</month>
+                       <day>6</day>
+                      </datetime>
+                     </property>
+                     <property name="currentSection">
+                      <enum>QDateTimeEdit::YearSection</enum>
+                     </property>
+                     <property name="displayFormat">
+                      <string>yyyy-MM-dd.</string>
+                     </property>
+                     <property name="calendarPopup">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QFrame" name="frame">
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>32</height>
+                   </size>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_11">
+                   <property name="spacing">
+                    <number>0</number>
+                   </property>
+                   <property name="leftMargin">
+                    <number>11</number>
+                   </property>
+                   <property name="topMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>4</number>
+                   </property>
+                   <property name="bottomMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <widget class="QLabel" name="label_7">
+                     <property name="minimumSize">
+                      <size>
+                       <width>21</width>
+                       <height>21</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>21</width>
+                       <height>21</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>Mongolian Baiti</family>
+                       <pointsize>13</pointsize>
+                       <weight>75</weight>
+                       <italic>false</italic>
+                       <bold>true</bold>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">color: rgb(255, 255, 255);</string>
+                     </property>
+                     <property name="text">
+                      <string>À:</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QDateEdit" name="dateEdit_2">
+                     <property name="minimumSize">
+                      <size>
+                       <width>171</width>
+                       <height>31</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>171</width>
+                       <height>31</height>
+                      </size>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <family>Mongolian Baiti</family>
+                       <pointsize>18</pointsize>
+                       <weight>75</weight>
+                       <italic>false</italic>
+                       <bold>true</bold>
+                      </font>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">QDateEdit{
+	border-radius:5px;
+	color: rgb(0, 0, 0);
+	background-color: qlineargradient(spread:pad, x1:0.483, y1:0, x2:0.513, y2:0.989, stop:0 rgba(197, 197, 197, 255), stop:1 rgba(120, 120, 120, 255));
+}
+QDateEdit:hover {
+	
+	background-color: rgb(170, 255, 255);
+ }</string>
+                     </property>
+                     <property name="dateTime">
+                      <datetime>
+                       <hour>0</hour>
+                       <minute>0</minute>
+                       <second>0</second>
+                       <year>2020</year>
+                       <month>6</month>
+                       <day>6</day>
+                      </datetime>
+                     </property>
+                     <property name="displayFormat">
+                      <string>yyyy-MM-dd.</string>
+                     </property>
+                     <property name="calendarPopup">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame">
+            <layout class="QHBoxLayout" name="horizontalLayout_13">
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>11</number>
+             </property>
+             <property name="bottomMargin">
+              <number>6</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_4">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>36</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>36</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Bodoni MT</family>
+                 <pointsize>11</pointsize>
+                 <weight>75</weight>
+                 <italic>false</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);</string>
+               </property>
+               <property name="text">
+                <string>SOLDE COMPTE:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="b_g">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>36</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>36</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Bodoni MT</family>
+                 <pointsize>15</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="acceptDrops">
+                <bool>true</bool>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLineEdit{
+	border-radius:10px;
+}</string>
+               </property>
+               <property name="frame">
+                <bool>true</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>36</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>36</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Bodoni MT</family>
+                 <pointsize>11</pointsize>
+                 <weight>75</weight>
+                 <italic>false</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);</string>
+               </property>
+               <property name="text">
+                <string>SOLDE SOUS-COMPTE:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="b_sc">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>36</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>36</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Bodoni MT</family>
+                 <pointsize>15</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="acceptDrops">
+                <bool>true</bool>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLineEdit{
+	border-radius:10px;
+}</string>
+               </property>
+               <property name="frame">
+                <bool>true</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_2">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>36</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>36</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Bodoni MT</family>
+                 <pointsize>11</pointsize>
+                 <weight>75</weight>
+                 <italic>false</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);</string>
+               </property>
+               <property name="text">
+                <string>SOLDE GENERAL:</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="general_b">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>36</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>36</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Bodoni MT</family>
+                 <pointsize>15</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="acceptDrops">
+                <bool>true</bool>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLineEdit{
+	border-radius:10px;
+}</string>
+               </property>
+               <property name="text">
+                <string>0</string>
+               </property>
+               <property name="frame">
+                <bool>true</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>59</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <weight>50</weight>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::RightToLeft</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_9">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>11</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QFrame" name="frame_15">
+               <property name="minimumSize">
+                <size>
+                 <width>211</width>
+                 <height>21</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>664</width>
+                 <height>24</height>
+                </size>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_5">
+                <property name="spacing">
+                 <number>11</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout">
+                  <property name="spacing">
+                   <number>23</number>
+                  </property>
+                  <property name="sizeConstraint">
+                   <enum>QLayout::SetFixedSize</enum>
+                  </property>
+                  <item>
+                   <widget class="QRadioButton" name="graph">
+                    <property name="font">
+                     <font>
+                      <family>Bodoni MT</family>
+                      <pointsize>14</pointsize>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QRadioButton{
+color: rgb(255, 255, 255);}
+
+QRadioButton:indicator{width : 20px;
+height : 20px;}</string>
+                    </property>
+                    <property name="text">
+                     <string>Graphique</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="Line" name="line_3">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QRadioButton" name="table">
+                    <property name="font">
+                     <font>
+                      <family>Bodoni MT</family>
+                      <pointsize>14</pointsize>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QRadioButton{
+color: rgb(255, 255, 255);}
+
+QRadioButton:indicator{width : 20px;
+height : 20px;}</string>
+                    </property>
+                    <property name="text">
+                     <string>Tableau</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="Line" name="line_4">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QStackedWidget" name="y_m_d">
+                    <property name="currentIndex">
+                     <number>1</number>
+                    </property>
+                    <widget class="QWidget" name="page_15">
+                     <widget class="QRadioButton" name="graph_day">
+                      <property name="geometry">
+                       <rect>
+                        <x>220</x>
+                        <y>0</y>
+                        <width>91</width>
+                        <height>20</height>
+                       </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Bodoni MT</family>
+                        <pointsize>14</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+color: rgb(255, 255, 255);}
+
+QRadioButton:indicator{width : 20px;
+height : 20px;}</string>
+                      </property>
+                      <property name="text">
+                       <string>Jours</string>
+                      </property>
+                     </widget>
+                     <widget class="QRadioButton" name="graph_month">
+                      <property name="geometry">
+                       <rect>
+                        <x>130</x>
+                        <y>0</y>
+                        <width>91</width>
+                        <height>20</height>
+                       </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Bodoni MT</family>
+                        <pointsize>14</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+color: rgb(255, 255, 255);}
+
+QRadioButton:indicator{width : 20px;
+height : 20px;}</string>
+                      </property>
+                      <property name="text">
+                       <string>Mois</string>
+                      </property>
+                     </widget>
+                     <widget class="QRadioButton" name="graph_year">
+                      <property name="geometry">
+                       <rect>
+                        <x>20</x>
+                        <y>0</y>
+                        <width>111</width>
+                        <height>20</height>
+                       </rect>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <family>Bodoni MT</family>
+                        <pointsize>14</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QRadioButton{
+color: rgb(255, 255, 255);}
+
+QRadioButton:indicator{width : 20px;
+height : 20px;}</string>
+                      </property>
+                      <property name="text">
+                       <string>Années</string>
+                      </property>
+                     </widget>
+                    </widget>
+                    <widget class="QWidget" name="page_16"/>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="Line" name="line_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_16">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>31</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>16777215</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_8">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_6">
+                  <property name="spacing">
+                   <number>7</number>
+                  </property>
+                  <property name="sizeConstraint">
+                   <enum>QLayout::SetFixedSize</enum>
+                  </property>
+                  <item>
+                   <widget class="Line" name="line_7">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QRadioButton" name="cM">
+                    <property name="font">
+                     <font>
+                      <family>Bodoni MT</family>
+                      <pointsize>14</pointsize>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QRadioButton{
+color: rgb(255, 255, 255);}
+
+QRadioButton:indicator{width : 20px;
+height : 20px;}</string>
+                    </property>
+                    <property name="text">
+                     <string>Caisse MAD</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="Line" name="line_6">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QRadioButton" name="cR">
+                    <property name="font">
+                     <font>
+                      <family>Bodoni MT</family>
+                      <pointsize>14</pointsize>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QRadioButton{
+color: rgb(255, 255, 255);}
+
+QRadioButton:indicator{width : 20px;
+height : 20px;}
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Caisse DEVISE</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="Line" name="line_5">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QRadioButton" name="cBox">
+                    <property name="font">
+                     <font>
+                      <family>Bodoni MT</family>
+                      <pointsize>14</pointsize>
+                      <weight>75</weight>
+                      <bold>true</bold>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QRadioButton{
+color: rgb(255, 255, 255);}
+
+QRadioButton:indicator{width : 20px;
+height : 20px;}</string>
+                    </property>
+                    <property name="text">
+                     <string>Comptes</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="Line" name="line_8">
+                    <property name="orientation">
+                     <enum>Qt::Vertical</enum>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="Line" name="line_9">
+                  <property name="orientation">
+                   <enum>Qt::Horizontal</enum>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_24">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <property name="leftMargin">
+           <number>11</number>
+          </property>
+          <item>
+           <widget class="QTableWidget" name="acc_balance">
+            <property name="minimumSize">
+             <size>
+              <width>300</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>320</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Bodoni MT</family>
+              <pointsize>14</pointsize>
+              <weight>75</weight>
+              <italic>true</italic>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QTableWidget{
+	
+	
+	
+	background-color: rgb(255, 255, 255);
+	
+	border-radius:15px;
+}</string>
+            </property>
+            <property name="inputMethodHints">
+             <set>Qt::ImhNoEditMenu</set>
+            </property>
+            <property name="lineWidth">
+             <number>1</number>
+            </property>
+            <property name="midLineWidth">
+             <number>0</number>
+            </property>
+            <property name="verticalScrollBarPolicy">
+             <enum>Qt::ScrollBarAsNeeded</enum>
+            </property>
+            <property name="editTriggers">
+             <set>QAbstractItemView::NoEditTriggers</set>
+            </property>
+            <property name="alternatingRowColors">
+             <bool>false</bool>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <property name="verticalScrollMode">
+             <enum>QAbstractItemView::ScrollPerItem</enum>
+            </property>
+            <property name="sortingEnabled">
+             <bool>true</bool>
+            </property>
+            <property name="rowCount">
+             <number>0</number>
+            </property>
+            <attribute name="horizontalHeaderCascadingSectionResizes">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderMinimumSectionSize">
+             <number>50</number>
+            </attribute>
+            <attribute name="horizontalHeaderDefaultSectionSize">
+             <number>175</number>
+            </attribute>
+            <attribute name="horizontalHeaderHighlightSections">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="verticalHeaderVisible">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderMinimumSectionSize">
+             <number>30</number>
+            </attribute>
+            <attribute name="verticalHeaderDefaultSectionSize">
+             <number>45</number>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>Compte</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Bodoni MT</family>
+               <pointsize>13</pointsize>
+               <weight>75</weight>
+               <italic>true</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Solde</string>
+             </property>
+             <property name="font">
+              <font>
+               <family>Bodoni MT</family>
+               <pointsize>13</pointsize>
+               <weight>75</weight>
+               <italic>true</italic>
+               <bold>true</bold>
+              </font>
+             </property>
+            </column>
+           </widget>
+          </item>
+          <item>
+           <widget class="QStackedWidget" name="stackedWidget">
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="page">
+             <widget class="QFrame" name="frame_18">
+              <property name="geometry">
+               <rect>
+                <x>-1</x>
+                <y>-1</y>
+                <width>761</width>
+                <height>381</height>
+               </rect>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_15">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="leftMargin">
+                <number>2</number>
+               </property>
+               <property name="topMargin">
+                <number>0</number>
+               </property>
+               <property name="rightMargin">
+                <number>0</number>
+               </property>
+               <property name="bottomMargin">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QTableWidget" name="ops_table">
+                 <property name="font">
+                  <font>
+                   <family>Bodoni MT</family>
+                   <pointsize>13</pointsize>
+                   <weight>75</weight>
+                   <italic>true</italic>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QTableWidget{
+	
+	background-color: rgb(255, 255, 255);
+	border-radius:15px;
+}</string>
+                 </property>
+                 <property name="editTriggers">
+                  <set>QAbstractItemView::NoEditTriggers</set>
+                 </property>
+                 <property name="defaultDropAction">
+                  <enum>Qt::IgnoreAction</enum>
+                 </property>
+                 <property name="alternatingRowColors">
+                  <bool>true</bool>
+                 </property>
+                 <property name="selectionBehavior">
+                  <enum>QAbstractItemView::SelectRows</enum>
+                 </property>
+                 <attribute name="horizontalHeaderCascadingSectionResizes">
+                  <bool>true</bool>
+                 </attribute>
+                 <attribute name="horizontalHeaderMinimumSectionSize">
+                  <number>52</number>
+                 </attribute>
+                 <attribute name="horizontalHeaderDefaultSectionSize">
+                  <number>136</number>
+                 </attribute>
+                 <attribute name="horizontalHeaderStretchLastSection">
+                  <bool>false</bool>
+                 </attribute>
+                 <attribute name="verticalHeaderVisible">
+                  <bool>false</bool>
+                 </attribute>
+                 <column>
+                  <property name="text">
+                   <string>Date/Heure</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Bodoni MT</family>
+                    <pointsize>13</pointsize>
+                    <weight>75</weight>
+                    <italic>true</italic>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="textAlignment">
+                   <set>AlignCenter</set>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Compte</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Bodoni MT</family>
+                    <pointsize>13</pointsize>
+                    <weight>75</weight>
+                    <italic>true</italic>
+                    <bold>true</bold>
+                    <underline>false</underline>
+                   </font>
+                  </property>
+                  <property name="textAlignment">
+                   <set>AlignCenter</set>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Sous-compte</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Bodoni MT</family>
+                    <pointsize>13</pointsize>
+                    <weight>75</weight>
+                    <italic>true</italic>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="textAlignment">
+                   <set>AlignCenter</set>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>ID</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Bodoni MT</family>
+                    <pointsize>13</pointsize>
+                    <weight>75</weight>
+                    <italic>true</italic>
+                    <bold>true</bold>
+                    <underline>false</underline>
+                   </font>
+                  </property>
+                  <property name="textAlignment">
+                   <set>AlignCenter</set>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Utilisateur</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Bodoni MT</family>
+                    <pointsize>13</pointsize>
+                    <weight>75</weight>
+                    <italic>true</italic>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="textAlignment">
+                   <set>AlignCenter</set>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Type</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Bodoni MT</family>
+                    <pointsize>13</pointsize>
+                    <weight>75</weight>
+                    <italic>true</italic>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="textAlignment">
+                   <set>AlignCenter</set>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Débit</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Bodoni MT</family>
+                    <pointsize>13</pointsize>
+                    <weight>75</weight>
+                    <italic>true</italic>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="textAlignment">
+                   <set>AlignCenter</set>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Crédit</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Bodoni MT</family>
+                    <pointsize>13</pointsize>
+                    <weight>75</weight>
+                    <italic>true</italic>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="textAlignment">
+                   <set>AlignCenter</set>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Solde compte</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Bodoni MT</family>
+                    <pointsize>13</pointsize>
+                    <weight>75</weight>
+                    <italic>true</italic>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="textAlignment">
+                   <set>AlignCenter</set>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Total S.Compte</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Bodoni MT</family>
+                    <pointsize>13</pointsize>
+                    <weight>75</weight>
+                    <italic>true</italic>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="textAlignment">
+                   <set>AlignCenter</set>
+                  </property>
+                 </column>
+                 <column>
+                  <property name="text">
+                   <string>Remarque/Motif</string>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Bodoni MT</family>
+                    <pointsize>13</pointsize>
+                    <weight>75</weight>
+                    <italic>true</italic>
+                    <bold>true</bold>
+                   </font>
+                  </property>
+                  <property name="textAlignment">
+                   <set>AlignCenter</set>
+                  </property>
+                 </column>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="page_2">
+             <widget class="QTableWidget" name="ops_table_2">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>761</width>
+                <height>381</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Bodoni MT</family>
+                <pointsize>13</pointsize>
+                <weight>75</weight>
+                <italic>true</italic>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QTableWidget{
+	
+	background-color: rgb(255, 255, 255);
+	border-radius:15px;
+}</string>
+              </property>
+              <property name="editTriggers">
+               <set>QAbstractItemView::NoEditTriggers</set>
+              </property>
+              <property name="alternatingRowColors">
+               <bool>true</bool>
+              </property>
+              <property name="selectionBehavior">
+               <enum>QAbstractItemView::SelectRows</enum>
+              </property>
+              <property name="gridStyle">
+               <enum>Qt::SolidLine</enum>
+              </property>
+              <property name="sortingEnabled">
+               <bool>true</bool>
+              </property>
+              <attribute name="horizontalHeaderDefaultSectionSize">
+               <number>170</number>
+              </attribute>
+              <attribute name="verticalHeaderVisible">
+               <bool>false</bool>
+              </attribute>
+              <column>
+               <property name="text">
+                <string>Date/Heure</string>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Mongolian Baiti</family>
+                 <pointsize>13</pointsize>
+                 <weight>75</weight>
+                 <italic>true</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Utilisateur</string>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Bodoni MT</family>
+                 <pointsize>13</pointsize>
+                 <weight>75</weight>
+                 <italic>true</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Réference</string>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Bodoni MT</family>
+                 <pointsize>13</pointsize>
+                 <weight>75</weight>
+                 <italic>true</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Solde Géneral</string>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Mongolian Baiti</family>
+                 <pointsize>13</pointsize>
+                 <weight>75</weight>
+                 <italic>true</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Solde Caisse DH</string>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Mongolian Baiti</family>
+                 <pointsize>13</pointsize>
+                 <weight>75</weight>
+                 <italic>true</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Difference</string>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Mongolian Baiti</family>
+                 <pointsize>13</pointsize>
+                 <weight>75</weight>
+                 <italic>true</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+              </column>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="page_3">
+             <widget class="QTableWidget" name="devise_table">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>791</width>
+                <height>381</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Bodoni MT</family>
+                <pointsize>13</pointsize>
+                <weight>75</weight>
+                <italic>true</italic>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QTableWidget{
+	
+	background-color: rgb(255, 255, 255);
+	border-radius:15px;
+}</string>
+              </property>
+              <property name="editTriggers">
+               <set>QAbstractItemView::NoEditTriggers</set>
+              </property>
+              <property name="alternatingRowColors">
+               <bool>true</bool>
+              </property>
+              <property name="selectionBehavior">
+               <enum>QAbstractItemView::SelectRows</enum>
+              </property>
+              <property name="gridStyle">
+               <enum>Qt::SolidLine</enum>
+              </property>
+              <property name="sortingEnabled">
+               <bool>true</bool>
+              </property>
+              <attribute name="horizontalHeaderDefaultSectionSize">
+               <number>155</number>
+              </attribute>
+              <attribute name="verticalHeaderVisible">
+               <bool>false</bool>
+              </attribute>
+              <column>
+               <property name="text">
+                <string>Date/Heure</string>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Bodoni MT</family>
+                 <pointsize>13</pointsize>
+                 <weight>75</weight>
+                 <italic>true</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Utilisateur</string>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Bodoni MT</family>
+                 <pointsize>13</pointsize>
+                 <weight>75</weight>
+                 <italic>true</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Réference</string>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Bodoni MT</family>
+                 <pointsize>13</pointsize>
+                 <weight>75</weight>
+                 <italic>true</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Total EURO</string>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Bodoni MT</family>
+                 <pointsize>13</pointsize>
+                 <weight>75</weight>
+                 <italic>true</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>EUROxCOUR</string>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Bodoni MT</family>
+                 <pointsize>13</pointsize>
+                 <weight>75</weight>
+                 <italic>true</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>Cour</string>
+               </property>
+               <property name="font">
+                <font>
+                 <family>Bodoni MT</family>
+                 <pointsize>13</pointsize>
+                 <weight>75</weight>
+                 <italic>true</italic>
+                 <bold>true</bold>
+                </font>
+               </property>
+              </column>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="page_14"/>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_12">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>47</height>
+          </size>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_16">
+          <property name="spacing">
+           <number>3</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>11</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="new_op">
+            <property name="minimumSize">
+             <size>
+              <width>216</width>
+              <height>41</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>288</width>
+              <height>41</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Bodoni MT</family>
+              <pointsize>15</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	border-radius:15px;
+	color: rgb(0, 0, 0);
+	
+	background-color: qlineargradient(spread:pad, x1:0.475, y1:0, x2:0.534, y2:1, stop:0 rgba(206, 206, 206, 255), stop:1 rgba(156, 156, 156, 255));
+}
+QPushButton:hover {
+	background-color: rgb(0, 223, 164);
+ }
+</string>
+            </property>
+            <property name="text">
+             <string>Nouvelle opération</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_22">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_13">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>11</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QRadioButton" name="deletedops">
+               <property name="font">
+                <font>
+                 <family>Bodoni MT</family>
+                 <pointsize>18</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">color: rgb(255, 255, 255);</string>
+               </property>
+               <property name="text">
+                <string>Ops. Annulées</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_17">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_12">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QStackedWidget" name="stacked2">
+               <property name="currentIndex">
+                <number>0</number>
+               </property>
+               <widget class="QWidget" name="page_4"/>
+               <widget class="QWidget" name="page_9">
+                <widget class="QPushButton" name="remarque_btn">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>0</y>
+                   <width>171</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Bodoni MT</family>
+                   <pointsize>15</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	border-radius:15px;
+	color: rgb(0, 0, 0);
+	
+	background-color: qlineargradient(spread:pad, x1:0.475, y1:0, x2:0.534, y2:1, stop:0 rgba(206, 206, 206, 255), stop:1 rgba(156, 156, 156, 255));
+}
+QPushButton:hover {
+	
+	
+	background-color: rgb(0, 223, 164);
+ }</string>
+                 </property>
+                 <property name="text">
+                  <string>Remarque</string>
+                 </property>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="page_5">
+                <widget class="QPushButton" name="new_op_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>0</y>
+                   <width>171</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Bodoni MT</family>
+                   <pointsize>13</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	border-radius:15px;
+	color: rgb(0, 0, 0);
+	
+	background-color: qlineargradient(spread:pad, x1:0.475, y1:0, x2:0.534, y2:1, stop:0 rgba(206, 206, 206, 255), stop:1 rgba(156, 156, 156, 255));
+}
+QPushButton:hover {
+	
+	
+	background-color: rgb(0, 223, 164);
+ }</string>
+                 </property>
+                 <property name="text">
+                  <string>Motif d'annulation</string>
+                 </property>
+                </widget>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QStackedWidget" name="stackedWidget_2">
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="page_20"/>
+            <widget class="QWidget" name="page_21">
+             <widget class="QPushButton" name="remarque_btn_3">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>0</y>
+                <width>171</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Bodoni MT</family>
+                <pointsize>15</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton{
+	border-radius:15px;
+	color: rgb(0, 0, 0);
+	
+	background-color: qlineargradient(spread:pad, x1:0.475, y1:0, x2:0.534, y2:1, stop:0 rgba(206, 206, 206, 255), stop:1 rgba(156, 156, 156, 255));
+}
+QPushButton:hover {
+	
+	
+	background-color: rgb(0, 223, 164);
+ }</string>
+              </property>
+              <property name="text">
+               <string>Reçus</string>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_13">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_11">
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QStackedWidget" name="stacked3">
+               <property name="currentIndex">
+                <number>2</number>
+               </property>
+               <widget class="QWidget" name="page_6">
+                <widget class="QPushButton" name="details">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>0</y>
+                   <width>161</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Bodoni MT</family>
+                   <pointsize>13</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	border-radius:15px;
+	color: rgb(0, 0, 0);
+	
+	background-color: qlineargradient(spread:pad, x1:0.475, y1:0, x2:0.534, y2:1, stop:0 rgba(206, 206, 206, 255), stop:1 rgba(156, 156, 156, 255));
+}
+QPushButton:hover {
+	
+	
+	background-color: rgb(0, 223, 164);
+ }</string>
+                 </property>
+                 <property name="text">
+                  <string>Détails MAD</string>
+                 </property>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="page_7">
+                <widget class="QPushButton" name="details_D">
+                 <property name="geometry">
+                  <rect>
+                   <x>10</x>
+                   <y>0</y>
+                   <width>161</width>
+                   <height>31</height>
+                  </rect>
+                 </property>
+                 <property name="font">
+                  <font>
+                   <family>Bodoni MT</family>
+                   <pointsize>12</pointsize>
+                   <weight>75</weight>
+                   <bold>true</bold>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	border-radius:15px;
+	color: rgb(0, 0, 0);
+	
+	background-color: qlineargradient(spread:pad, x1:0.475, y1:0, x2:0.534, y2:1, stop:0 rgba(206, 206, 206, 255), stop:1 rgba(156, 156, 156, 255));
+}
+QPushButton:hover {
+	
+	
+	background-color: rgb(0, 223, 164);
+ }</string>
+                 </property>
+                 <property name="text">
+                  <string>Détails DEVISE</string>
+                 </property>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="page_8"/>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1137</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>22</height>
+    </size>
+   </property>
+   <widget class="QMenu" name="menuFichier">
+    <property name="font">
+     <font>
+      <family>Mongolian Baiti</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Édition</string>
+    </property>
+    <widget class="QMenu" name="menuAjouter">
+     <property name="font">
+      <font>
+       <family>Mongolian Baiti</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="title">
+      <string>Ajouter/Supprimer</string>
+     </property>
+     <addaction name="actionCollaborateurs"/>
+     <addaction name="actionComptes"/>
+    </widget>
+    <addaction name="menuAjouter"/>
+    <addaction name="actionChanger_la_date"/>
+    <addaction name="actionComptes_supprim"/>
+   </widget>
+   <widget class="QMenu" name="menuFichier_2">
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Mongolian Baiti</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+    <addaction name="actionImprimer"/>
+    <addaction name="actionEnregisterer"/>
+    <addaction name="actionExporter_2"/>
+   </widget>
+   <widget class="QMenu" name="menuCaisse">
+    <property name="font">
+     <font>
+      <family>Mongolian Baiti</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Caisse</string>
+    </property>
+    <addaction name="actionCaisse_DH"/>
+    <addaction name="actionCaisse_DEVISE"/>
+   </widget>
+   <addaction name="menuFichier_2"/>
+   <addaction name="menuFichier"/>
+   <addaction name="menuCaisse"/>
+  </widget>
+  <action name="actionCollaborateurs">
+   <property name="text">
+    <string>Collaborateurs</string>
+   </property>
+   <property name="statusTip">
+    <string>Ajouter un nouveau collaborateurs</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Mongolian Baiti</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionComptes">
+   <property name="text">
+    <string>Comptes</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Mongolian Baiti</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionCaisee">
+   <property name="text">
+    <string>Caisse</string>
+   </property>
+  </action>
+  <action name="actionEnregisterer">
+   <property name="text">
+    <string>Enregisterer-sous...</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Mongolian Baiti</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionCaisse_DH">
+   <property name="text">
+    <string>Caisse MAD</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Mongolian Baiti</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionCaisse_DEVISE">
+   <property name="text">
+    <string>Caisse DEVISE</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Mongolian Baiti</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionAnnulation">
+   <property name="text">
+    <string>Annulation</string>
+   </property>
+  </action>
+  <action name="actionImprimer">
+   <property name="text">
+    <string>Imprimer...</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Mongolian Baiti</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionTable">
+   <property name="text">
+    <string>Tableau</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Mongolian Baiti</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionGraphique">
+   <property name="text">
+    <string>Graphique</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Mongolian Baiti</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionExporter_2">
+   <property name="text">
+    <string>Exporter...</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Mongolian Baiti</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+  </action>
+  <action name="actionComptes_supprim">
+   <property name="text">
+    <string>Comptes supprimé</string>
+   </property>
+  </action>
+  <action name="actionChanger_la_date">
+   <property name="text">
+    <string>Changer la date</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
